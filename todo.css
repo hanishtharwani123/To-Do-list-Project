@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #323949;
+    overflow-x: hidden;
+}
+
+.hel {
+    color: #19e3aa;
+    font-size: 39px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -313px;
+    position: relative;
+    top: 17px;
+    font-weight: 616;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card input {
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+    width: 498px;
+    background: #51f0cb;
+}
+
+.wel {
+    background: transparent;
+    font-size: 16px;
+    border: 0;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 4px;
+    font-family: 'Bungee Inline', cursive;
+    width: 108px;
+    height: 34px;
+    color: #19e3aa;
+}
+
+.wel:hover {
+    color: white;
+    background-color: red;
+    background-image:
+        linear-gradient(to right,
+            rgb(180, 255, 30),
+            #06ecf0,
+            rgb(75, 105, 255),
+            rgb(243, 56, 150));
+    border-radius: 4px;
+}
+
+span {
+    position: relative;
+    top: -6px;
+}
+
+.hell {
+    text-align: center;
+    color: #19e3aa;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    position: relative;
+    top: 83px;
+    left: -281px;
+}
+
+#task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gri {
+    display: grid;
+    grid-gap: 19px;
+    margin: 94px 7px;
+    margin-left: 89px;
+}
+
+.b1 input {
+    width: 609px;
+    background: #51f0cb;
+    padding: 10px;
+    border-radius: 9px;
+    border: 0;
+}
+
+.b1 {
+    display: flex;
+}
+
+.e1 {
+    position: relative;
+    right: 122px;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Alexandria', sans-serif;
+    color: rgb(255, 7, 7);
+    font-weight: 600;
+}
+
+.f1 {
+    position: relative;
+    right: 100px;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Alexandria', sans-serif;
+    color: blue;
+    font-weight: 600;
+}
+
+.e1:hover {
+    color: rgb(44, 2, 2);
+}
+
+.f1:hover {
+    color: rgb(251, 43, 223);
+}
+
+p {
+    color: rgb(17, 255, 43);
+    font-family: 'Alexandria', sans-serif;
+    position: relative;
+    top: 425px;
+    left: 29px;
+    font-size: 16px;
+}
+
+
+#new-task-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new-task-input {
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 0;
+    width: 498px;
+    background: #51f0cb;
+}
+
+#new-task-submit {
+    background: transparent;
+    font-size: 16px;
+    border: 0;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 4px;
+    font-family: 'Bungee Inline', cursive;
+    width: 108px;
+    height: 34px;
+    color: #19e3aa;
+    cursor: pointer;
+}
+
+#new-task-submit:hover {
+    color: white;
+    background-color: red;
+    background-image:
+        linear-gradient(to right,
+            rgb(180, 255, 30),
+            #06ecf0,
+            rgb(75, 105, 255),
+            rgb(243, 56, 150));
+    border-radius: 4px;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task {
+
+    margin: 94px 7px;
+    margin-left: 89px;
+}
+
+.text {
+    width: 609px;
+    background: #54f9f9;
+    padding: 11px;
+    border-radius: 9px;
+    border: 0;
+}
+
+.edit {
+    position: relative;
+    right: 122px;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(245, 6, 6);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete {
+    position: relative;
+    right: 100px;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(8, 69, 154);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: rgb(44, 2, 2);
+}
+
+.delete:hover {
+    color: rgb(8, 126, 57);
+}
+
+#new-task-input::placeholder {
+    color: var(--grey);
+}
