@@ -22,7 +22,7 @@ h1 {
     font-size: 50px;
     font-family: 'Pacifico', cursive;
 
-    color: darkblue;
+    color: rgb(74, 255, 54);
 
 
 
@@ -30,12 +30,10 @@ h1 {
 
 @supports (--css: variables) {
     h1 {
-        background: linear-gradient(to right, rgb(78, 233, 248), rgb(203, 100, 255));
-        /* create bg gradient */
+/*      background: linear-gradient(to right, rgb(78, 233, 248), rgb(203, 100, 255));
         color: transparent;
-        /* hide text fill */
         background-clip: text;
-        /* use text as clipping mask for bg */
+*/
     }
 
     h1::selection {
