@@ -1,5 +1,5 @@
 # TO DO LIST PROJECT
-Hello everyone, I am back with a new project and in this project I have made a todo list.  I have created this project by using HTML, CSS and Javascript.  Concepts of JavaScript such as event listeners, query selectors, loops and functions have been used in this project.  I hope you like it. Thank You❤️
+Hello everyone, I am back with a new project and in this project I have made a todo list.  I have created this project by using HTML, CSS and Javascript.  Concepts of JavaScript such as event listeners, query selectors, loops and functions have been used in this project.  I hope you like it.
 ![Screenshot (661)](https://user-images.githubusercontent.com/104623869/205499256-b3a06d60-dab4-4e3e-97da-20174b00c76e.png)
 
 ![Screenshot (662)](https://user-images.githubusercontent.com/104623869/205499272-fdb6a5e9-b621-4fec-a5a4-fd74a42d682b.png)
